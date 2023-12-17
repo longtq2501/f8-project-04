@@ -52,7 +52,7 @@ a {
 
 .header {
   height: 84px;
-  background: #fffaf5;
+  background: #fff2e5;
   padding-top: 26px;
 }
 
@@ -128,7 +128,7 @@ a {
 .hero {
   width: 100%;
   height: calc(100vh + 69px);
-  background: #fffaf5;
+  background: #fff2e5;
 }
 
 .hero__inside {
@@ -319,4 +319,113 @@ a {
   100% {
     color: red;
   }
+}
+
+/* ================== HERO =================== */
+
+.about {
+  height: 665px;
+  background: #fff2e5;
+  padding: 53px 0px;
+}
+
+.about__inside {
+  display: grid;
+  align-items: center;
+  height: 559px;
+  column-gap: 108px;
+  grid-template-columns: 477px 1fr;
+  grid-template-areas: "aa bb";
+}
+
+.about__title {
+  margin-top: 15px;
+}
+
+.about__desc {
+  width: 431px;
+  margin: 24px 0px 54px;
+}
+
+.about__slogan {
+  color: #5e6085;
+  font-family: Sora;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1; /* 100% */
+}
+
+.about__box--experience {
+  display: grid;
+  width: 447px;
+  height: 82px;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 24px 36px;
+}
+
+.about__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.about__sub-desc {
+  color: #48496a;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+}
+
+.about__img {
+  position: relative;
+}
+
+.about__img--center {
+  position: absolute;
+  translate: 48px -279px;
+  width: 494px;
+  height: 559px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+  object-fit: cover;
+}
+
+.about__card {
+  position: absolute;
+  translate: 0px -20px;
+  width: 136px;
+  height: 156px;
+  border-radius: 10px;
+  background: #5bd6e2;
+  box-shadow: -15px 26px 48px 0px rgba(85, 240, 255, 0.17);
+  padding: 31px 26px;
+}
+
+.about__card--number {
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1; /* 100% */
+  margin-bottom: 14px;
+}
+
+.about__card--desc {
+  width: 83px;
+  color: #c6f4f9;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.42857; /* 142.857% */
+}
+
+.about__card--foot {
+  position: absolute;
+  top: -18px;
+  left: 87px;
+  width: 40px;
+  height: 40px;
+  scale: 2;
 }
