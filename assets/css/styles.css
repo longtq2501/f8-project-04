@@ -8,7 +8,7 @@
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 62.5%;
 }
 
@@ -136,7 +136,7 @@ a {
   height: 582px;
   padding: 80px 0 77px;
   grid-template-columns: 52% 1fr;
-  grid-template-areas: 'aa bb';
+  grid-template-areas: "aa bb";
 }
 
 .hero__img--box {
@@ -335,7 +335,7 @@ a {
   height: 559px;
   column-gap: 108px;
   grid-template-columns: 477px 1fr;
-  grid-template-areas: 'aa bb';
+  grid-template-areas: "aa bb";
 }
 
 .about__title {
@@ -539,7 +539,7 @@ a {
 
 .feature__separate::before {
   position: absolute;
-  content: ';
+  content: "";
   display: inline-block;
   top: 0;
   left: 0;
@@ -574,7 +574,7 @@ a {
   padding: 68px 0px 120px;
 }
 
-.service__inside {  
+.service__inside {
   display: grid;
   grid-template-columns: 294px 440px 1fr;
   grid-template-rows: 148px repeat(3, 208px);
@@ -596,10 +596,10 @@ a {
   border-radius: 10px;
   border: 2px solid rgba(255, 188, 122, 0.26);
   padding: 30px 22px 30px 28px;
-  background: #FFF;
+  background: #fff;
 }
 
-.service__card--01 {  
+.service__card--01 {
   display: grid;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
@@ -608,11 +608,15 @@ a {
   translate: 0 172px;
 }
 
-.service__card--02 { grid-area: card--02; }
+.service__card--02 {
+  grid-area: card--02;
+}
 
-.service__card--03 { grid-area: card--03; }
+.service__card--03 {
+  grid-area: card--03;
+}
 
-.service__card--04 {  
+.service__card--04 {
   display: grid;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
@@ -621,14 +625,21 @@ a {
   translate: 0 172px;
 }
 
-.service__card--05 { grid-area: card--05; }
+.service__card--05 {
+  grid-area: card--05;
+}
 
-.service__card--06 { grid-area: card--06; }
+.service__card--06 {
+  grid-area: card--06;
+}
 
-.service__title { grid-area: service__title; }
+.service__title {
+  grid-area: service__title;
+}
 
-.service__img { grid-area: service__img; }
-
+.service__img {
+  grid-area: service__img;
+}
 
 .service__sub-title {
   color: #000958;
@@ -643,7 +654,7 @@ a {
   display: inline-block;
   width: 2px;
   height: 22px;
-  background: linear-gradient(90deg, #FF5B2E 0.39%, #FFA187 100.29%);
+  background: linear-gradient(90deg, #ff5b2e 0.39%, #ffa187 100.29%);
   margin-right: 12px;
 }
 
@@ -662,7 +673,7 @@ a {
 }
 
 .service__read-more {
-  color: #34396A;
+  color: #34396a;
   font-family: Sora;
   font-size: 1.2rem;
   font-weight: 400;
@@ -696,7 +707,7 @@ a {
   width: 410px;
   height: 350px;
   border-radius: 10px;
-  background: linear-gradient(180deg, #9DF1FB 0%, #73D0DB 108.14%);
+  background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
 }
 
 .service__img--main {
@@ -707,6 +718,92 @@ a {
 .service__btn {
   position: absolute;
   bottom: -21px;
-  color: #FF5B2E;
+  color: #ff5b2e;
   font-weight: 600;
+}
+
+/* ================== TEAM =================== */
+
+.team {
+  height: 885px;
+  background: #fff;
+}
+
+.team__inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 130px 0px;
+}
+
+.team__item--box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px 29px;
+  grid-auto-flow: row;
+  justify-items: stretch;
+  height: 383px;
+}
+
+.team__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.team__title {
+  margin: 15px 0px 45px;
+}
+
+.team__partner {
+  z-index: 2;
+  border-radius: 115px;
+}
+
+.team__job {
+  margin: 29px 0px 14px;
+  color: #656689;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1; /* 100% */
+}
+
+.team__name {
+  color: #000958;
+  font-family: Sora;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1; /* 100% */
+}
+
+.team__partner--bg {
+  width: 234px;
+  height: 266px;
+  border-radius: 129.5px;
+}
+
+.partner--01 {
+  position: absolute;
+  background: linear-gradient(180deg, #90ccff 0%, #59a8eb 95.96%);
+  translate: 0 -79px;
+}
+
+.partner--02 {
+  position: absolute;
+  background: linear-gradient(180deg, #ff997e 0%, #f3752e 100%);
+  translate: 0 -79px;
+}
+
+.partner--03 {
+  position: absolute;
+  background: linear-gradient(180deg, #fabf3e 0%, #ffa14a 100%);
+  translate: 0 -79px;
+}
+
+.partner--04 {
+  position: absolute;
+  background: linear-gradient(180deg, #5bd6e2 0%, #00a7cc 100%);
+  translate: 0 -79px;
 }
