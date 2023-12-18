@@ -31,6 +31,12 @@ a {
   border-radius: 31px;
   border: 1px solid #ff5b2e;
   cursor: pointer;
+  transition: all 0.25s;
+}
+
+.btn:hover {
+  background: #ff5b2e;
+  color: #FFFFFF;
 }
 
 .h2__title {
@@ -96,11 +102,19 @@ a {
 
 .header__nav li,
 .header__nav--active {
-  padding: 15.4px 18px;
-  color: #5e6085;
+  padding: 8px 18px;
+  color: rgb(94, 96, 133);
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 1; /* 100% */
+  line-height: 50px;
+}
+
+.header__nav li {
+  transition: all 0.3s ease-in-out;
+}
+
+.header__nav li:hover a {
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.52);
 }
 
 .header__nav--active a {
@@ -121,6 +135,12 @@ a {
   font-weight: 600;
   line-height: 1; /* 100% */
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__btn:hover {
+  background: #000958;
+  color: #ffffff;
 }
 
 /* ================== HERO =================== */
