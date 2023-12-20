@@ -8,8 +8,21 @@
 }
 
 html {
-  font-family: "Poppins", sans-serif;
   font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background: #FFFAF5;
+}
+
+input,
+textarea,
+select,
+button {
+  font-size: inherit;
+  font-family: inherit;
 }
 
 /* COMMON */
@@ -58,7 +71,7 @@ a {
 
 .header {
   height: 84px;
-  background: #ffffff;
+  background: #FFFAF5;
   padding-top: 26px;
 }
 
@@ -148,7 +161,6 @@ a {
 .hero {
   width: 100%;
   height: 827px;
-  background: #ffffff;
 }
 
 .hero__inside {
@@ -454,7 +466,6 @@ a {
 
 .feature {
   height: 708px;
-  background: #ffffff;
   padding: 77px 0px 60px;
 }
 
@@ -590,7 +601,7 @@ a {
 .service {
   width: 100%;
   height: 1043px;
-  background: #fffaf5;
+  background: #FFF6ED;
   padding: 68px 0px 120px;
 }
 
@@ -746,7 +757,6 @@ a {
 
 .team {
   height: 885px;
-  background: #fff;
 }
 
 .team__inside {
@@ -840,7 +850,7 @@ a {
 
 .pricing {
   height: 933px;
-  background: #fffaf5;
+  background: #FFF6ED;
 }
 
 .pricing__inside {
@@ -930,7 +940,6 @@ a {
 
 .test {
   height: 491px;
-  background: #ffffff;
   margin-top: 53px;
 }
 
